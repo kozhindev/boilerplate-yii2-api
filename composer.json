@@ -1,0 +1,19 @@
+{
+    "name": "kozhindev/boilerplate-yii2-api",
+    "description": "Boilerplate Yii2 Api",
+    "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": "^7.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "kozhindev/yii-steroids": "^1.12",
+        "phpunit/phpunit": "5.7.19"
+    },
+    "config": {
+        "process-timeout": 1800
+    }
+}
